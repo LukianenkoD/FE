@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    color: rgb(13, 118, 60);
+    font-size: 50px;
+    margin: 100px 300px;
+    border: 10px outset gray;
+    padding: 20px 40px;
+    text-align: center;
+}
+p {
+    font-size: 30px;
+    text-align: center;
+}
+h2 {
+    color: brown;
+    font-size: 40px;
+    margin: 50px 300px;
+    border: 8px double rgb(132, 90, 7);
+    padding: 20px 110px;
+    text-align: center;
+}
+h3 {
+    font-size: 30px;
+}
+div {
+    margin: 50px;
+    border: 6px dotted rgb(57, 93, 3);
+    text-align: left;
+}
+.place {
+    background-color: aqua;
+    padding: 30px 80px;
+    text-align: center;
+}
+#place_img{
+    width: 600px;
+    margin: 0 auto;
+    display: block;
+}
+.education {
+    background-color: fuchsia;
+    padding: 30px 80px;
+    border-radius: 50px;
+    text-align: center;
+}
+#education_img{
+    width: 600px;
+    margin: 0 auto;
+    display: block;
+}
+.hobby {
+    background-color: yellowgreen;
+    padding: 30px 80px;
+    border-radius: 50px;
+    text-align: center;
+}
+#hobby_img {
+    width: 600px;
+}
+.social {
+    border: none;
+    padding: 50px;
+    text-align: center;
+}
+.social_img {
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+}
