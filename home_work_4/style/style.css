@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.social {
+    display: flex;
+   width: 300px;
+   justify-content: space-evenly;
+
+}
+.first_section {
+    background: #4FBFA5;
+}
+.menu {
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+   
+
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+.menu a {
+    font-family: 'ABeeZee';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+        color: white;
+       
+}
+
+#main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+    font-weight: 400;
+}
+.main-text {
+    padding: 0 0 0 340px;
+}
+.main-img {
+
+padding: 0 262px 57px 30px;
+
+}
+.main-text h2 {
+    font-family: 'ABeeZee';
+font-style: italic;
+font-weight: 400;
+font-size: 48px;
+line-height: 150%;
+color: white;
+    margin-bottom: 20px;
+}
+
+.main-text p {
+    color: white; 
+    margin-bottom: 40px; 
+    font-family: 'ABeeZee';
+font-style: italic;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+}
+.main-text a {
+    background: #00868A;
+ padding: 15px 25px 14px 25px;
+color: white;
+font-size: 18px;
+}
+#action {
+    margin-bottom: 160px;
+}
+#action h2{
+    color: #00868A;
+    font-family: 'ABeeZee';
+font-style: italic;
+font-weight: 400;
+font-size: 48px;
+line-height: 150%;
+display: flex;
+justify-content: center;
+margin-bottom: 60px;
+}
+.imges-action {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+
+
+
+.img1,.img2,.img3,.img4 {
+  
+    background-color: #00868A;
+    width: 306px;
+    
+}
+.img1,.img2,.img3,.img4 p {
+    font-family: 'ABeeZee';
+font-style: italic;
+font-weight: 400;
+font-size: 21px;
+line-height: 150%;
+color: white;
+
+}
+
+.arrow {
+    display: flex;
+}
+.arrow img {
+    padding: 14px 95px 25px 30px;
+}
+
+.arrow p {
+    padding: 0 20px;
+}
+
+.img1{
+    position: relative;
+}
+
+.img1:hover::before{
+    content: "";
+     background-color: #0000003b;
+     width: 100%;
+     height: 100%;
+     position: absolute;
+ }
+
+ .img2{
+    position: relative;
+}
+
+.img2:hover::before{
+    content: "";
+     background-color: #0000003b;
+     width: 100%;
+     height: 100%;
+     position: absolute;
+ }
+
+ .img3{
+    position: relative;
+}
+
+.img3:hover::before{
+    content: "";
+     background-color: #0000003b;
+     width: 100%;
+     height: 100%;
+     position: absolute;
+ }
+
+ .img4{
+    position: relative;
+}
+
+.img4:hover::before{
+    content: "";
+     background-color: #0000003b;
+     width: 100%;
+     height: 100%;
+     position: absolute;
+ }
+
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+
+}
