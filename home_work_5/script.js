@@ -4,13 +4,13 @@ let number = prompt("Enter number:");
 console.log(number**2);
 // -2-
 let number1 = prompt("Enter number:");
-if (number1%2) {
+if (number1%2===0) {
 
-console.log("uneven")
+console.log("number even")
 
 }
-else if (number1%3) {
-    console.log("number even ")
+else if (number1%2!==0) {
+    console.log("uneven ")
 }
 else {
      console.log("number = 0")
