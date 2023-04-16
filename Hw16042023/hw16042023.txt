@@ -1,0 +1,30 @@
+ 1 уровень сложности: 1.Как отказаться от изменений в файле (файлах) находящийся в рабочем каталоге (work directory)?
+- git checkout song.txt(git checkout . )
+
+
+2.Как вернуть файл из индекса в рабочий каталог?
+- git restore --staged song.txt(new)
+- git reset song.txt(old)
+
+3.Как отменить ошибочный commit ?
+- git log (показывает commit);
+- git reset HEAD~1(количество commit) - отменить ошибочный commit;
+
+- git commit --amend -m "New commit" (изменить commit);
+- git commit --amend -m "New commit + New file.txt" (добавил file в commit);
+
+
+4.Как создать новую ветку и переключится в нее?
+- git branch test (создать новую ветку);
+- git branch -v (посмотреть ветки);
+- git checkout - b test1 (создать новую ветку и переключится в нее);
+- git checkout main(переключится на новую ветку).
+
+5.Как создать git репозиторий из локального каталога на своем компьютере. Как его отправить на github.com?  
+- git init(папка с файлами folder.git). Cоздаем репозиторий на github.com с таким же названием как папка на компьютере "folder"; 
+- git add folder.git(git add . добавить все файлы);
+- git commit -m "first commit";
+- git branch -M main;
+- git remote add origin git@github.com: LukianenkoD/folder.git; 
+- git push -u origin main;
+
